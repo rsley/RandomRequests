@@ -1,0 +1,12 @@
+{
+  "name": "RandomRequests",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/rsley/RandomRequests",
+  "author": "Rafael Soley R. <110256307+rsley@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "fastify": "^4.28.0"
+  }
+}
