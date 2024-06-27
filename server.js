@@ -1,6 +1,6 @@
 const fastify = require('fastify')({ logger: true });
 const axios = require('axios');
-const PORT = 3000;
+const PORT = process.env.PORT || 4000;
 
 let nextPingTime = 0;
 let service = process.env.SERVICE
